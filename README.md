@@ -3,6 +3,9 @@
 ## Technologies used
 NodeJS, Android(Java), Volley library, Glide library, XML, Google play services
 
+## APIs used
+Ticketmaster API, IP API, Spotify API, Google Maps API, Google Customized Search API, Songkick API, and Twitter API
+
 ## Overview
 This Android application serves as the Mobile counterpart of the project found at http://csci-hw8-222600.appspot.com
 
