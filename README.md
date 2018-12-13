@@ -1,7 +1,7 @@
 # Event Search - Android Application
 
 ## Technologies used
-NodeJS, Android(Java), XML
+NodeJS, Android(Java), Volley library, Glide library, XML, Google play services
 
 ## Overview
 This Android application serves as the Mobile counterpart of the project found at http://csci-hw8-222600.appspot.com
