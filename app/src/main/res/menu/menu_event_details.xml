@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.anubhavjusc.eventsearch.EventDetails">
+
+    <item
+        android:id="@+id/favorite"
+        android:icon="@drawable/ic_favorite_heartfill_white"
+        android:title="Favorite"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/tweet"
+        android:icon="@mipmap/twitter_ic"
+        android:title="Tweet"
+        app:showAsAction="always" />
+
+</menu>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:orientation="horizontal"
+    android:layout_marginTop="5dp"
+    android:id="@+id/itemContainer">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@mipmap/music_icon"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/thumbnail"/>
+
+            <LinearLayout
+                android:layout_width="300sp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kip Moore - After the Sunburn"
+                    android:textStyle="bold"
+                    android:id="@+id/titleText"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hollywood Pantages Theatre"
+                    android:id="@+id/locationText"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2018-11-02 20:00:00"
+                    android:id="@+id/dateText"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/eventId"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/eventCategory"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/artist"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/artist2"
+                    android:visibility="gone"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="40sp"
+                android:layout_height="40sp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/ic_favorite_heartoutline_black"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

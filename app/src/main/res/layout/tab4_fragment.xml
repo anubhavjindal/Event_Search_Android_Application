@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10sp"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No Upcoming Events"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:visibility="gone"
+        android:id="@+id/noRecordText"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:padding="10sp"
+        android:id="@+id/sortingLayout">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="5sp">
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/categorySortSpinner">
+            </Spinner>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingRight="5sp">
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/orderSortSpinner">
+            </Spinner>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/cardScroll">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                card_view:cardCornerRadius="4dp"
+                android:layout_marginBottom="10sp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textColor="#5c4af9"
+                        android:textColorLink="#5c4af9"
+                        android:text="Russ at Staples Center (November 27,2018)"
+                        android:layout_marginBottom="7sp"
+                        android:id="@+id/eventName1"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textColor="#f7812c"
+                        android:text="Justin Timberlake"
+                        android:layout_marginBottom="7sp"
+                        android:id="@+id/artistName1"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textColor="#1cb2a3"
+                        android:text="November 27, 2018 20:00:00"
+                        android:layout_marginBottom="7sp"
+                        android:id="@+id/dateTime1"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:text="Type: Concert"
+                        android:layout_marginBottom="7sp"
+                        android:id="@+id/type1"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                card_view:cardCornerRadius="4dp"
+                android:layout_marginBottom="10sp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textColorLink="#5c4af9"
+                        android:textColor="#5c4af9"
+                        android:text="Russ at Staples Center (November 27,2018)"
+                        android:layout_marginBottom="7sp"
+                        android:id="@+id/eventName2"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textColor="#f7812c"
+                        android:text="Justin Timberlake"
+                        android:layout_marginBottom="7sp"
+                        android:id="@+id/artistName2"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textColor="#1cb2a3"
+                        android:text="November 27, 2018 20:00:00"
+                        android:layout_marginBottom="7sp"
+                        android:id="@+id/dateTime2"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:text="Type: Concert"
+                        android:layout_marginBottom="7sp"
+                        android:id="@+id/type2"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                card_view:cardCornerRadius="4dp"
+                android:layout_marginBottom="10sp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textColorLink="#5c4af9"
+                        android:textColor="#5c4af9"
+                        android:text="Russ at Staples Center (November 27,2018)"
+                        android:layout_marginBottom="7sp"
+                        android:id="@+id/eventName3"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textColor="#f7812c"
+                        android:text="Justin Timberlake"
+                        android:layout_marginBottom="7sp"
+                        android:id="@+id/artistName3"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textColor="#1cb2a3"
+                        android:text="November 27, 2018 20:00:00"
+                        android:layout_marginBottom="7sp"
+                        android:id="@+id/dateTime3"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:text="Type: Concert"
+                        android:layout_marginBottom="7sp"
+                        android:id="@+id/type3"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                card_view:cardCornerRadius="4dp"
+                android:layout_marginBottom="10sp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColorLink="#5c4af9"
+                        android:textStyle="bold"
+                        android:textColor="#5c4af9"
+                        android:text="Russ at Staples Center (November 27,2018)"
+                        android:layout_marginBottom="7sp"
+                        android:id="@+id/eventName4"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textColor="#f7812c"
+                        android:text="Justin Timberlake"
+                        android:layout_marginBottom="7sp"
+                        android:id="@+id/artistName4"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textColor="#1cb2a3"
+                        android:text="November 27, 2018 20:00:00"
+                        android:layout_marginBottom="7sp"
+                        android:id="@+id/dateTime4"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:text="Type: Concert"
+                        android:layout_marginBottom="7sp"
+                        android:id="@+id/type4"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                card_view:cardCornerRadius="4dp"
+                android:layout_marginBottom="10sp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="10sp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColorLink="#5c4af9"
+                        android:textStyle="bold"
+                        android:textColor="#5c4af9"
+                        android:text="Russ at Staples Center (November 27,2018)"
+                        android:layout_marginBottom="17sp"
+                        android:id="@+id/eventName5"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textColor="#f7812c"
+                        android:text="Justin Timberlake"
+                        android:layout_marginBottom="7sp"
+                        android:id="@+id/artistName5"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textColor="#1cb2a3"
+                        android:text="November 27, 2018 20:00:00"
+                        android:layout_marginBottom="7sp"
+                        android:id="@+id/dateTime5"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:text="Type: Concert"
+                        android:layout_marginBottom="7sp"
+                        android:id="@+id/type5"/>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10sp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/t3l1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="65"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:text="Name"/>
+            <TextView
+                android:id="@+id/venueNameText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="35"
+                android:textSize="18sp"
+                android:paddingLeft="20sp"
+                android:text="STAPLES Center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5sp"
+            android:id="@+id/t3l2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="65"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:text="Address"/>
+            <TextView
+                android:id="@+id/addressText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="35"
+                android:textSize="18sp"
+                android:paddingLeft="20sp"
+                android:text="3770 S. Las Vegas Blvd"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5sp"
+            android:id="@+id/t3l3">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="65"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:text="City"/>
+            <TextView
+                android:id="@+id/cityText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="35"
+                android:textSize="18sp"
+                android:paddingLeft="20sp"
+                android:text="Los Angeles, California"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5sp"
+            android:id="@+id/t3l4">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="65"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:text="Phone Number"/>
+            <TextView
+                android:id="@+id/phoneNumberText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="35"
+                android:textSize="18sp"
+                android:paddingLeft="20sp"
+                android:text="323-286-6843"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5sp"
+            android:id="@+id/t3l5">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="65"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:text="Open Hours"/>
+            <TextView
+                android:id="@+id/openHoursText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="35"
+                android:textSize="18sp"
+                android:paddingLeft="20sp"
+                android:text="Open hours information goes here in multiple lines."/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5sp"
+            android:id="@+id/t3l6">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="65"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:text="General Rule"/>
+            <TextView
+                android:id="@+id/generalRuleText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="35"
+                android:textSize="18sp"
+                android:paddingLeft="20sp"
+                android:text="General Rule information goes here in multiple lines."/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5sp"
+            android:layout_marginBottom="10sp"
+            android:id="@+id/t3l7">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="65"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:text="Child Rule"/>
+            <TextView
+                android:id="@+id/childRuleText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="35"
+                android:textSize="18sp"
+                android:paddingLeft="20sp"
+                android:text="Child Rule information goes here again in multiple lines"/>
+
+        </LinearLayout>
+
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="400sp"
+            android:id="@+id/map"
+            tools:context=".MapsActivity"
+            android:name="com.google.android.gms.maps.SupportMapFragment" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20sp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:id="@+id/t1l1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="65"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Artist/Team(s)"/>
+        <TextView
+            android:id="@+id/artistText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="35"
+            android:textSize="18sp"
+            android:paddingLeft="20sp"
+            android:text="Lady Gaga"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t1l2"
+        android:layout_marginBottom="10sp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="65"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Venue"/>
+        <TextView
+            android:id="@+id/venueText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="35"
+            android:textSize="18sp"
+            android:paddingLeft="20sp"
+            android:text="Park Theatre"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t1l3"
+        android:layout_marginBottom="10sp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="65"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Time"/>
+        <TextView
+            android:id="@+id/timeText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="35"
+            android:textSize="18sp"
+            android:paddingLeft="20sp"
+            android:text="Dec 28, 2018 20:00:00"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t1l4"
+        android:layout_marginBottom="10sp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="65"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Category"/>
+        <TextView
+            android:id="@+id/categoryText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="35"
+            android:textSize="18sp"
+            android:paddingLeft="20sp"
+            android:text="Music | Pop"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t1l5"
+        android:layout_marginBottom="10sp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="65"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Price Range"/>
+        <TextView
+            android:id="@+id/priceText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="35"
+            android:textSize="18sp"
+            android:paddingLeft="20sp"
+            android:text="$117.00 ~ $505.50"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t1l6"
+        android:layout_marginBottom="10sp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="65"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Ticket Status"/>
+        <TextView
+            android:id="@+id/statusText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="35"
+            android:textSize="18sp"
+            android:paddingLeft="20sp"
+            android:text="Onsale"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t1l7"
+        android:layout_marginBottom="10sp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="65"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Buy Ticket At"/>
+        <TextView
+            android:id="@+id/buyAtText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorLink="@android:color/tab_indicator_text"
+            android:layout_weight="35"
+            android:textSize="18sp"
+            android:paddingLeft="20sp"
+            android:text="Ticketmaster"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t1l8"
+        android:layout_marginBottom="10sp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="65"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Seat Map"/>
+        <TextView
+            android:id="@+id/seatMapText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="35"
+            android:textColorLink="@android:color/tab_indicator_text"
+            android:textSize="18sp"
+            android:paddingLeft="20sp"
+            android:text="View Here"/>
+
+    </LinearLayout>
+
+</LinearLayout>
